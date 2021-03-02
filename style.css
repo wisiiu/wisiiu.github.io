@@ -1,0 +1,92 @@
+body {
+    background-color:darkkhaki;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 3rem;
+    color: black
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.game-window{
+    position: absolute;
+    display: table;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    padding: 2rem;
+    font-family: Arial;
+}
+button.start-btn {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 8px;
+    width: 80%;
+    background-color: white;
+    outline: none;
+    border: none;
+    margin: 1rem 0 0 0;
+}
+
+button.start-btn:hover{ 
+    cursor: pointer;
+    background-color: rgb(228, 228, 228);
+}
+
+p {
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%);
+    font-family: arial;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+button {
+    font-size: 1.2rem;
+    white-space:nowrap;
+}
+
+.memory-check {
+    outline: none;
+    border: none;
+    padding: 8px;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-bottom: 5px solid white;
+    color: white;
+    margin: 4px;
+    text-align: center;
+}
+
+button.check-btn{
+    position: relative;
+    display: block;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 8px;
+    width: auto;
+    background-color: white;
+    outline: none;
+    border: none;
+    margin: 1rem 0 0 0;
+    font-family: arial;
+}
+
+button.check-btn:hover{
+    background-color:rgb(233, 233, 233);
+    cursor: pointer;
+}
